@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/textVwTask"
+        android:textSize="11pt"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgViewCheck"
+        android:layout_toEndOf="@+id/imgViewCheck"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorTxt"
+
+        />
+
+    <ImageView
+        android:layout_width="40px"
+        android:layout_height="40px"
+        android:id="@+id/imgViewCheck"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/sign_check"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
